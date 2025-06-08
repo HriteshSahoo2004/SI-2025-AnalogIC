@@ -46,18 +46,3 @@ This model helps in:
 
 > 📷 This schematic shows the practical implementation of the Thevenin model using Xschem.
 > ---
-
-### 📈 Output Response of the Microphone Circuit
-
-The simulation below shows the voltage output (`vout`) across the load, after signal amplification and filtering.
-
-<img src="schematic/micoutput.png" width="600"/>
-
-> 🧪 This waveform helps verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.
-
----
-### 🔧 Op-Amp Modeling as a Single Pole System
-
-To better analyze the frequency response of the analog front-end, the operational amplifier is modeled using a **single-pole transfer function**. This provides insight into the bandwidth limitations and phase behavior of the amplifier.
-
-<img src="schematic/micopamp.png" width="600"/>
