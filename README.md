@@ -63,3 +63,105 @@ The plots below shows the voltage output (vout), (vdb), (phase) across the load,
 <img src="Circuit_Plots/Theveninckt_plotPhase.png" width="600"/>
 
 > 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+
+### 🎛️ Thevenin Equivalent Model of the Microphone for Transient
+
+<img src="Schematic_Images/Theveninckt_transient.png" width="600"/>
+
+> 📷 This schematic shows the practical implementation of the Thevenin model for Transient using Xschem.
+> ---
+### 📈 Output Response of the Microphone Circuit
+
+The image below shows the voltage output (vout), (vdb), (phase) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Outputs/Theveninckt_transient_op.png" width="600"/>
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+> ---
+###  📈 Plots of the Microphone Circuit
+
+The plots below shows the voltage output (vout), (vdb), (phase) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Plots/Theveninckt_transient_plotV.png" width="600"/>
+<img src="Circuit_Plots/Theveninckt_transient_plotVdb.png" width="600"/>
+<img src="Circuit_Plots/Theveninckt_transient_plotPhase.png" width="600"/>
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+
+> ### 🎛️ Thevenin Equivalent Model of the Microphone Using Opamp
+
+<img src="Schematic_Images/Opamp_Mic.png" width="600"/>
+
+> 📷 This schematic shows the practical implementation of the Thevenin model for Transient using Xschem.
+> ---
+### 📈 Output Response of the Microphone Circuit Using Opamp
+
+The image below shows the voltage output (vout), (vdb), (phase) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Outputs/Opamp_Mic_op.png" width="600"/>
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+> ---
+###  📈 Plots of the Microphone Circuit Using Opamp
+
+The plots below shows the voltage output (vout), (vdb), (phase) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Plots/Opamp_Mic_plotV.png" width="600"/>
+<img src="Circuit_Plots/Opamp_Mic_plotVdb.png" width="600"/>
+<img src="Circuit_Plots/Opamp_Mic_plotPhase.png" width="600"/>
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+>
+### 🎛️ Schematic Model of Opamp 
+
+<img src="Schematic_Images/Highpass_sch.png" width="600"/>
+
+> 📷 This schematic shows the practical implementation using Xschem.
+> ---
+### 🎛️ High Pass Model using Opamp 
+
+<img src="Schematic_Images/Highpass_ckt.png" width="600"/>
+
+### 📈 Output Response of the Highpass  Circuit Using Opamp
+
+The image below shows the voltage output (vout), (vdb), (phase) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Outputs/Highpass_op.png" width="600"/>
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+> ---
+###  📈 Plots of the HighPass Circuit Using Opamp
+
+The plots below shows the voltage output (vdb) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Plots/Highpass_plotVdb.png" width="600"/>
+
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+>
+> ### 🎛️ Schematic Model of Buffer Opamp 
+
+<img src="Schematic_Images/HighpassBuffer_sch.png" width="600"/>
+
+> 📷 This schematic shows the practical implementation using Xschem.
+> ---
+### 🎛️ High Pass Model using  Buffer Opamp 
+
+<img src="Schematic_Images/HighpassBuffer_ckt.png" width="600"/>
+
+### 📈 Output Response of the Highpass Circuit Using Buffer  Opamp
+
+The image below shows the voltage output (vout), (vdb), (phase) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Outputs/HighpassBuffer_op.png" width="600"/>
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
+> ---
+###  📈 Plots of the HighPass Circuit Using Buffer  Opamp
+
+The plots below shows the voltage output (vdb) across the load, after signal amplification and filtering.
+
+<img src="Circuit_Plots/HighpassBuffer_plotVdb.png" width="600"/>
+
+
+> 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.** 
