@@ -1,10 +1,11 @@
-# Day 1 — USB Microphone System
+# USB Microphone System
 
-USB Microphone System Analysis
+##USB Microphone System Analysis
 
 This section explains the analog front-end of a USB microphone setup and its role in signal conditioning and conversion.
 
-<img src="cktimg/Fig-d1-1-USBmic.png" width="500"/>
+<img >
+>
 
 *System Overview*:
 
