@@ -42,7 +42,7 @@ This model helps in:
 - Impedance matching for the amplifier input
 - Ensuring minimal signal loss at the interface
 
-<img src="schematic/thevenineqcktmic.png" width="600"/>
+<img src="Schematic_Images/Theveninckt_mic.png" width="600"/>
 
 > 📷 This schematic shows the practical implementation of the Thevenin model using Xschem.
 > ---
