@@ -58,6 +58,8 @@ The image below shows the voltage output (vout), (vdb), (phase) across the load,
 
 The plots below shows the voltage output (vout), (vdb), (phase) across the load, after signal amplification and filtering.
 
-<img src="Circuit_Outputs/Theveninckt_op.png" width="600"/>
+<img src="Circuit_Plots/Theveninckt_plotV.png" width="600"/>
+<img src="Circuit_Plots/Theveninckt_plotVdb.png" width="600"/>
+<img src="Circuit_Plots/Theveninckt_plotPhase.png" width="600"/>
 
 > 🧪 This image helps to verify if the designed circuit properly amplifies the mic signal within expected voltage ranges.**
