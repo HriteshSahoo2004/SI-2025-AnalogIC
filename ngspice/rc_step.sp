@@ -1,0 +1,14 @@
+.TITLE RC Step Input Testbench
+
+.PARAM vdd_var=1
+
+R1    vin    vout    1k
+C1    vout   GND     1p
+
+Vsin  vin    GND     0 PULSE(0 vdd_var 0.5n 1p 1p 1n 2n)
+
+.SAVE ALL
+.OP
+.TRAN 10p 40n
+
+.END
