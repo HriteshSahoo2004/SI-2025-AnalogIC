@@ -1,0 +1,74 @@
+v {xschem version=3.4.8RC file_version=1.2}
+G {}
+K {}
+V {}
+S {}
+E {}
+N -50 0 -50 50 {lab=GND}
+N 250 -90 260 -90 {lab=vin2}
+N 130 -90 140 -90 {lab=vin1}
+N -50 -90 -50 -60 {lab=vnmic}
+N 200 -90 250 -90 {lab=vin2}
+N 340 -280 340 -90 {lab=virt}
+N 320 -90 450 -90 {lab=virt}
+N 490 -280 490 -140 {lab=vout}
+N 440 -280 490 -280 {lab=vout}
+N 340 -280 380 -280 {lab=virt}
+N 340 -190 380 -190 {lab=virt}
+N 440 -190 490 -190 {lab=vout}
+N 400 -130 450 -130 {lab=#net1}
+N 400 -130 400 40 {lab=#net1}
+N 400 90 400 130 {lab=GND}
+N 660 -160 660 -130 {lab=vout}
+N 490 -160 660 -160 {lab=vout}
+N 660 -70 660 -40 {lab=GND}
+N 490 -80 490 -40 {lab=GND}
+N -50 -90 20 -90 {lab=vnmic}
+N 80 -90 130 -90 {lab=vin1}
+C {vsource.sym} -50 -30 0 0 {name=V1 value=3 savecurrent=false}
+C {res.sym} 50 -90 1 0 {name=R1
+value=380
+footprint=1206
+device=resistor
+m=1}
+C {capa.sym} 170 -90 1 0 {name=C1
+m=1
+value=4.7u
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} -50 50 0 0 {name=l1 lab=GND}
+C {res.sym} 290 -90 1 0 {name=R2
+value=4.7k
+footprint=1206
+device=resistor
+m=1}
+C {vcvs.sym} 490 -110 0 0 {name=E1 value=1000}
+C {gnd.sym} 490 -40 0 0 {name=l2 lab=GND}
+C {res.sym} 410 -190 1 0 {name=R3
+value=300k
+footprint=1206
+device=resistor
+m=1}
+C {capa.sym} 410 -280 1 0 {name=C2
+m=1
+value=27p
+footprint=1206
+device="ceramic capacitor"}
+C {vsource.sym} 400 60 0 0 {name=V2 value=1.5 savecurrent=false}
+C {gnd.sym} 400 130 0 0 {name=l3 lab=GND}
+C {capa.sym} 660 -100 2 0 {name=C3
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 660 -40 0 0 {name=l4 lab=GND}
+C {lab_wire.sym} -10 -90 0 0 {name=p1 sig_type=std_logic lab=vnmic}
+C {lab_wire.sym} 250 -90 0 0 {name=p2 sig_type=std_logic lab=vin2
+}
+C {lab_wire.sym} 130 -90 0 0 {name=p3 sig_type=std_logic lab=vin1}
+C {lab_wire.sym} 590 -160 0 0 {name=p4 sig_type=std_logic lab=vout
+}
+C {lab_wire.sym} 340 -130 0 0 {name=p5 sig_type=std_logic lab=virt
+}
+C {lab_wire.sym} 400 -40 0 0 {name=p6 sig_type=std_logic lab=vcm
+}

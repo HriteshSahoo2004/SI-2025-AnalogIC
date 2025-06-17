@@ -1,0 +1,34 @@
+v {xschem version=3.4.8RC file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 280 -100 280 -20 {}
+L 4 280 -100 340 -60 {}
+L 4 280 -20 340 -60 {}
+L 7 300 -100 300 -80 {}
+L 7 340 -60 360 -60 {}
+L 7 260 -80 280 -80 {}
+L 7 260 -30 280 -30 {}
+L 7 320 -90 320 -70 {}
+L 7 300 -40 300 -20 {}
+B 5 297.5 -102.5 302.5 -97.5 {name=AVDD dir=inout}
+B 5 357.5 -62.5 362.5 -57.5 {name=vout dir=inout}
+B 5 257.5 -82.5 262.5 -77.5 {name=vim dir=inout}
+B 5 257.5 -32.5 262.5 -27.5 {name=vip dir=inout}
+B 5 317.5 -92.5 322.5 -87.5 {name=ib5u dir=inout}
+B 5 297.5 -22.5 302.5 -17.5 {name=AVSS dir=inout}
+T {Opa_nmos1} 291.5 -66 0 0 0.1 0.1 {}
+T {@name} 365 -132 0 0 0.2 0.2 {}
+T {AVDD} 296 -125 3 1 0.1 0.1 {}
+T {vout} 375 -64 0 1 0.1 0.1 {}
+T {vim} 255 -84 0 1 0.1 0.1 {}
+T {vip} 255 -34 0 1 0.1 0.1 {}
+T {ib5u} 316 -105 3 1 0.1 0.1 {}
+T {AVSS} 294 -5 1 1 0.1 0.1 {}
+N 300 -20 300 40 {lab=GND}
+C {gnd.sym} 300 40 0 0 {name=l1 lab=GND}
